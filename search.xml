@@ -2,6 +2,25 @@
 <search> 
   
   
+    
+    <entry>
+      <title>驱动Airportitlwm的正确姿势</title>
+      <link href="2021/02/11/qu-dong-airportitlwm-de-zheng-que-zi-shi/"/>
+      <url>2021/02/11/qu-dong-airportitlwm-de-zheng-que-zi-shi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>抱歉，因为学术上的问题，我可能一个月内不会更新</p><h1 id="什么是Airportitlwm"><a href="#什么是Airportitlwm" class="headerlink" title="什么是Airportitlwm"></a>什么是Airportitlwm</h1><p>Airportitlwm是使用airport（苹果原生客户端）的itlwm。能用苹果的部分功能。</p><ul><li>驱动姿势<ul><li>Clover:<br>把IO80211Family放到Clover\kexts\Other\<br><img src="https://github.com/win1010525/Airportitlwm-kext/blob/main/images/Clover.png" alt="image"><br>然后把你自己系统版本的Airportitlwm放进去。  </li><li>OpenCore:<br>只需要放入Airportitlwm，然后在你的引导器里面加入这个kext。</li></ul></li><li>如果OpenCore的SecureBootModel被禁用，则无法加载此kext。你应该将其设置为默认值。<br>  <img src="https://github.com/win1010525/Airportitlwm-kext/blob/main/images/SecureBootModel.png" alt="image"><br> 你不需要在Big Sur上注意这个问题。  </li><li>接力  <ul><li>如果你的接力不起作用：<br>尝试退出Mac的Apple ID并重新登录。</li></ul></li><li>隔空投送  <ul><li>Airdrop现在无法工作，你只能找到具有相同Apple ID的设备。但你仍然无法发送文件。 </li></ul></li><li>Apple Watch解锁<ul><li>它能用，但非常不稳定。如果不起作用，请尝试重置钥匙链或再次登录Apple ID。</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Airportitlwm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
